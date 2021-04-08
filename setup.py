@@ -15,7 +15,6 @@ if __name__ == '__main__':
         author='Ruben Verweij',
         author_email='ruben@lighthacking.nl',
         url='https://github.com/rbnvrw/nd2reader',
-        download_url='https://github.com/rbnvrw/nd2reader/tarball/%s' % VERSION,
         keywords=['nd2', 'nikon', 'microscopy', 'NIS Elements'],
         classifiers=['Development Status :: 5 - Production/Stable',
                      'Intended Audience :: Science/Research',
