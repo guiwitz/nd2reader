@@ -10,7 +10,7 @@ if __name__ == '__main__':
             'xmltodict>=0.9.2',
             'pims>=0.3.0'
         ],
-        version=3.2.3.gw,
+        version='3.2.3.gw',
         description='A tool for reading ND2 files produced by NIS Elements',
         author='Ruben Verweij',
         author_email='ruben@lighthacking.nl',
