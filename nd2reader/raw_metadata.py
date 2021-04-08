@@ -280,7 +280,10 @@ class RawMetadata(object):
             dict: the parsed ROI metadata
 
         """
-        number_of_timepoints = raw_roi_dict[six.b('m_vectAnimParams_Size')]
+        try:
+            number_of_timepoints = raw_roi_dict[six.b('m_vectAnimParams_Size')]
+        except KeyError:
+            number_of_timepoints = 0
 
         roi_dict = {
             "timepoints": [],
